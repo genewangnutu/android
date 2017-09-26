@@ -56,7 +56,7 @@ public class DeviceScanActivity extends ListActivity {
         super.onCreate(savedInstanceState);
         Log.i(TAG, "start");
         Log.d("DeviceScanActivity","123");
-        getActionBar().setTitle(R.string.title_devices);
+        //getActionBar().setTitle(R.string.title_devices);
 
         // Use this check to determine whether BLE is supported on the device.  Then you can
         // selectively disable BLE-related features.
